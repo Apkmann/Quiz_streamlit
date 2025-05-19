@@ -583,7 +583,7 @@ def show_results():
 # Function to display home page
 def display_home(data=None):
     st.markdown('<div class="heading-container fade-in">', unsafe_allow_html=True)
-    st.title("Welcome to Tamil Quiz App! 📚")
+    st.title("Welcome to TNPSC Quiz App! 📚")
     st.markdown('</div>', unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
