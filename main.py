@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Set up the page configuration
 st.set_page_config(
-    page_title="Tamil Quiz App",
+    page_title="TNPSC Quiz",
     page_icon="📚",
     layout="centered",
     initial_sidebar_state="expanded"
