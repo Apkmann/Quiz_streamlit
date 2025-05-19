@@ -465,7 +465,7 @@ def display_question(item):
                 if st.session_state.user_answer == letter:
                     if letter == correct_option:
                         st.success(f"{letter}) {option_dict[letter]}")
-                        st.markdown(f'<div class="correct-answer">✅ Correct! Answer: {correct_answer}</div>', unsafe_allow_html=True)
+                        st.markdown(f'<div class="correct-answer" style="gap:5px; padding: 0px 10px" >✅ Correct! Answer: {correct_answer}</div>', unsafe_allow_html=True)
                     else:
                         st.error(f"{letter}) {option_dict[letter]}")
                         st.markdown(f'<div class="incorrect-answer">❌ Incorrect. The correct answer is: {correct_answer}</div>', unsafe_allow_html=True)
