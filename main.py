@@ -6,7 +6,7 @@ from PIL import Image
 import time
 import base64
 from datetime import datetime
-
+random.seed(3000) # For more randomize
 # Set up the page configuration
 st.set_page_config(
     page_title="TNPSC Quiz",
